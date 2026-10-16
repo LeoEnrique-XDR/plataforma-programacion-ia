@@ -1,0 +1,14 @@
+@import "./variables.css";
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--fondo); color: var(--texto); font-family: system-ui, sans-serif; }
+a { color: var(--secundario); }
+.contenedor { max-width: 960px; margin: 0 auto; padding: 24px; }
+.tarjeta { background: var(--panel); border: 1px solid var(--borde); border-radius: 12px; padding: 16px; margin-bottom: 16px; }
+.boton { background: var(--primario); color: #fff; border: 0; border-radius: 8px; padding: 8px 16px; cursor: pointer; font-size: 15px; }
+.boton.tutor { background: var(--tutor); }
+.boton.suave { background: transparent; border: 1px solid var(--borde); color: var(--texto); }
+input, textarea { width: 100%; background: var(--fondo); color: var(--texto); border: 1px solid var(--borde); border-radius: 8px; padding: 8px 12px; font-size: 15px; }
+textarea.codigo { font-family: ui-monospace, Consolas, monospace; min-height: 180px; }
+.ok { color: var(--exito); } .mal { color: var(--error); } .pista { color: var(--tutor); }
+.barra { display: flex; justify-content: space-between; align-items: center; padding: 12px 24px; background: var(--panel); border-bottom: 1px solid var(--borde); }

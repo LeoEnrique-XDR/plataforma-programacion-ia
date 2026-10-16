@@ -1,0 +1,6 @@
+# Componentes de IA (instalar cuando los vayas a usar)
+anthropic>=0.40
+scikit-learn>=1.5
+nltk>=3.9
+spacy>=3.7
+# Despues de instalar spacy:  python -m spacy download es_core_news_sm

@@ -1,0 +1,14 @@
+/* Paleta "Dark Tech Education" */
+:root {
+  --fondo: #0b1220;
+  --panel: #111c30;
+  --primario: #3b82f6;
+  --secundario: #22d3ee;
+  --tutor: #8b5cf6;
+  --exito: #22c55e;
+  --alerta: #f59e0b;
+  --error: #ef4444;
+  --texto: #e5e7eb;
+  --texto-suave: #94a3b8;
+  --borde: #1e2d4a;
+}
